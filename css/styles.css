@@ -1,0 +1,360 @@
+/* Footer links don't have black text */
+.footer .nav-link {
+    color: white;
+}
+
+/* Make links in header have left and right borders and centered text */
+.link {
+	border-left: 1px solid #013421;
+	border-right: 1px solid #013421;
+	text-align: center;
+}
+
+/* Style the links to other pages */
+.nav-link {
+  color: black;
+	font-size: 20px;
+	text-align: center;
+}
+
+/* Style the image on index.html */
+.inline-image {
+  width: 220px;
+  height: 220px;
+  float: right;
+  margin-left: 10px;
+  display: block;
+}
+
+/* Middle index styling from https://stackoverflow.com/questions/9537838/div-height-100-and-expands-to-fit-content */
+
+#middle-index {
+  display: block; 
+  overflow: auto;"
+}
+
+/* Give the body the custom font and a top margin */
+body {
+	font-family: "Open Sans";
+  margin-top: 80px;
+}
+
+/* Style selected links */
+a.nav-link.selected {
+	color: white;
+	background-color: #018553;
+  border-color: #018553;
+}
+
+/* Center parts of carousel and set width and max height */
+.carousel-inner, .carousel-item, .carousel {
+	background-position: center;
+	width: 100%;
+	max-height: 565px;
+}
+
+/* Captions shown on carousel stretch full length of carousel and are semi-transparent */
+.carousel-caption {
+	left: 0;
+	width: 100%;
+	background-color: hsla(0, 0%, 0%, 0.6)
+}
+
+/* Make the carousel image full-page length */
+.carousel img {
+	width: 100%;
+	height: auto;
+}
+
+/* Make the nav links change background color when hovered over */
+a.nav-link:hover {
+  color: black;
+	background-color: #82c666;
+}
+
+/* Set the selected ones to stay the same color when hovered */
+a.nav-link.selected:hover {
+	color: white;
+	background-color: #018553;
+}
+
+/* Set basic footer colors */
+.footer {
+	background-color: #013421;
+	font-color: #ffffff;
+  clear: both;
+}
+
+/* Set main content hr size and color */
+main hr {
+	height: 2px;
+	background-color: black;
+}
+
+/* Set footer hr size and color */
+footer hr {
+	height: 2px;
+	background-color: white;
+}
+
+/* Style the Twitter logo to be 50px x 50px */
+#tw-logo {
+ 	width: 50px;
+ 	height: auto;
+}
+
+/* Style the YouTube logo to be 50px x 50px */
+#yt-logo {
+	width: 50px;
+	height: auto;
+}
+
+/* Style the Pinterest logo to be 50px x 50px */
+#pt-logo {
+	width: 50px;
+	height: auto;
+}
+
+/* Most social media logo images have 10.5px of padding */
+.social-logo {
+ 	padding: 10.5px 10.5px 10.5px 10.5px;
+}
+
+/* Center the social media divs and manually set their width */
+.social-div {
+	margin: auto;
+	width: 50px;
+}
+
+/* Facebook and Twitter logo colors from https://brandcolors.net/ */
+/* Set blue background color of Facebook icon */
+#fb-logo-div {
+ 	background-color: #3b5998;
+}
+
+/* Set light blue background color of Twitter icon */
+#tw-logo-div {
+ 	background-color: #1da1f2;
+}
+
+/* Pinterest logo color from https://business.pinterest.com/en/pinterest-brand-guidelines */
+/* Set dark red background of Pinterest icon */
+#pt-logo-div {
+	background-color: #bd081c;
+}
+
+/* Stylizes the retailer logos */
+.retailer {
+	display: block;
+	margin: auto;
+	height: 35px;
+}
+
+/* Stylizes the div holding the retailer logos */
+.retailer-div {
+	margin: auto;
+	height: 35px;
+}
+
+/* Center the headers */
+h1, h2, h3 {
+	text-align: center;
+}
+
+#locations {
+  width: 100%;
+  height: 500px;
+  border: 0;
+}
+
+/* iframe and video-div from https://stackoverflow.com/questions/25302836/responsive-video-iframes-keeping-aspect-ratio-with-only-css */
+#video-div iframe {
+	position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+#video-div {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56%;
+}
+
+/* Make the video appear in the center, but don't make it take up the whole page */
+#video-div-holder {
+  width: 80%;
+  margin: auto;
+}
+
+/* Styles the hr in the footer by changing up its margin */
+footer hr {
+	margin: 25px 40px 0px 40px;
+}
+
+/* Styling for images on products page */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Overlay and container1 from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade */
+/* Used to create fade-in on product images */
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #82c666;
+}
+
+/* Changes opacity when an overlay is set */
+.container1:hover .overlay {
+  opacity: 1;
+}
+
+/* Styling text overlayed on images in products page */
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Centers header text on rewards page */
+#head {
+    text-align: center;
+}
+
+/* Defines width and alignment of left column on rewards page */
+/*#left-col {
+    width: 50%;
+    float: left;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+#right-col {
+    width: 50%;
+    float: right;
+    padding-left: 2vw;
+}*/
+
+#left-col {
+  margin-bottom: 20px;
+  border-right: 1px solid black;
+}
+
+#right-col {
+  margin-bottom: 20px;
+  border-left: 1px solid black;
+}
+
+/* Sets border of submit button in rewards page */
+.btn {
+  border: 2px solid black;
+}
+
+/* Changes hover color of submit button in rewards page*/
+.btn:hover {
+  background-color: #82c666;
+}
+
+/* Code below taken from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav and modified */
+
+/* Menu dropdown icon is large and white */
+a.icon {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 36px;
+  margin-top: 15px;
+}
+
+/* Make menu dropdown black when hovered over */
+a.icon:hover {
+  color: #000000;
+}
+
+/* Style header at top of page */
+.topnav {
+  background-color: #7ac3a8;
+  padding: 0px 15px 0px 15px;
+  overflow: hidden;
+}
+
+/* Style all links in header: make them float left and be in a block; */
+.topnav a {
+  float: left;
+  display: block;
+}
+
+/* Style all links except the small dropdown menu icon */
+.topnav a.link {
+  margin-top: 18px;
+}
+
+/* Make the icon not show up when the links are visible */
+.topnav .icon {
+  display: none;
+}
+
+/* Float the div containing links leftward */
+.topnav div {
+  float: right;
+}
+
+/* Check the screen width */
+@media screen and (max-width: 687px) {
+  /* All links within the link holder are no longer displayed */
+  .topnav div a {display: none;}
+  /* The icon shows up and floats right */
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  /* When the header is responsive, its position is no longer fixed */
+  .topnav.responsive {position: relative;}
+  /* Responsive header's icon has set location */
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  /* Responsive header's links are aligned leftward and without a border */
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    border: 0px;
+  }
+  /* Responsive header's page links are given a border and a margin */
+  .topnav.responsive a.link {
+    border-top: 1px solid black;
+    margin-top: 0px;
+  }
+  /* Responsive header's dropdown icon still has set margin (prevents it from jumping around) */
+  .topnav.responsive a.icon {
+    margin-right: 15px;
+    margin-top: 15px;
+  }
+  /* Div holding links in responsive header no longer has a float, allowing links to float left */
+  .topnav.responsive div {
+    float: none;
+  }
+  /* Remove border on left and right cols in rewards page when responsiveness is triggered */
+  #left-col, #right-col {
+    border: 0px;
+  }
+}

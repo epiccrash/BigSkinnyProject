@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+	<title>BigSkinny - Products</title>
+	<!-- Link to custom Google font (doesn't work yet) -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<meta name = "author" content = "Michael Becker, Matthew Kern, Emmet Mack, Joey Perrino">
+	<meta name = "keywords" content = "Prantl's, bakery">
+	<meta name = "description" content = "Website for BigSkinny">
+	<!-- Responsive code from https://www.w3schools.com/html/html_responsive.asp -->
+	<meta name = "viewport" content = "width=device-width, initial-scale-1">
+
+	<!-- Import stylesheets -->
+	<link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<link rel = "stylesheet" media = "all" type = "text/css" href = "css/styles.css">
+
+	<!-- Import scripts -->
+    <script type= "text/javascript" src = "js/scripts.js"></script>
+	<script type = "text/javascript" src = "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type = "text/javascript" src = "https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<!-- Header -->
+	<div class = "fixed-top">
+		<div id = "header" class = "topnav">
+			<!-- Big Skinny logo -->
+			<a href = "index.html" class = "navbar-brand"><img src = "images/home-6.jpg.png"/></a>
+			<!-- Individual page links -->
+			<div>
+				<a class = "link nav-link selected">Products</a>
+				<a href = "about.html" class = "link nav-link">About Us</a>
+				<a href = "rewards.html" class = "link nav-link">mySkinnyRewards&copy;</a>
+				<!-- Calls javascript function to activate dropdown -->
+				<!-- From https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav -->
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+			</div>
+		</div>
+	</div>
+
+	<main class = "container">
+		<br/>
+		<h1> Check out our amazing products!</h1>
+
+		<center><p>Hover over a section below and click to browse some of the finest wallets on the planet.</p></center>
+        <hr/>
+
+        <div class = "row">
+	        <div class = "row col">
+		        <div class = "col">
+		        	<h3>For Dads</h3>
+			        <div class="container1">
+			            <img src="images/men-wallet.png" alt="wallet" class="image">
+			                <a href = 'https://www.bigskinny.net/wallets-for-men.html'><div class="overlay">
+			                    <div class="text"> Men's wallets </div>
+			                </div></a>
+			        </div>
+		    	</div>
+		        <div class = "col">
+			        <h3>For Moms</h3>
+			        <div class="container1">
+			            <img src="images/women-wallet.png" alt="wallet" class="image">
+			                <a href = 'https://www.bigskinny.net/wallets-for-women.html'><div class="overlay">
+			                    <div class="text"> Women's wallets </div>
+			                </div></a>
+		        	</div>
+		        </div>
+	        </div>
+	        <div class = "row col">
+	        	<div class = "col">
+			        <h3>For Style</h3>
+			        <div class="container1">
+			            <img src="images/clip-wallet.png" alt="wallet" class="image">
+			                <a href = 'https://www.bigskinny.net/wallet-card-cases.html'><div class="overlay">
+			                    <div class="text"> Clips + Card Cases </div>
+			                </div></a>
+			        </div>
+			    </div>
+			    <div class = "col">
+			        <h3>For Your Wallet</h3>
+			        <div class="container1">
+			            <img src="images/sale.png" alt="wallet" class="image">
+			                <a href = 'https://www.bigskinny.net/on-sale.html'><div class="overlay">
+			                    <div class="text"> Sales </div>
+			                </div></a>
+			        </div>
+			    </div>
+		    </div>
+		</div>
+	    <br/>
+	</main>
+	<footer class = "footer text-light">
+		<br/>
+		<div class = "row">
+			<!-- Facebook logo -->
+			<div class = "col">
+			<!-- Facebook logo downloaded from https://en.facebookbrand.com/assets/f-logo -->
+				<div id = "fb-logo-div" class = "social-div"><a href = "https://www.facebook.com/bigskinny/" target = "_blank"><img src = "images/FB-f-Logo__white_29.png" class = "social-logo" alt = "Facebook"/></a></div>
+			</div>
+			<!-- Twitter logo -->
+			<div class = "col">
+			<!-- Twitter logo downloaded from https://about.twitter.com/en_us/company/brand-resources.html -->
+			<!-- Twitter logo resized -->
+				<div id = "tw-logo-div" class = "social-div"><a href = "https://twitter.com/big_skinny?lang=en" target = "_blank"><img src = "images/Twitter_Logo_WhiteOnBlue.png" id = "tw-logo" class = "social-logo" alt = "Twitter"/></a></div>
+			</div>
+			<!-- YouTube logo -->
+			<div class = "col">
+				<!-- YouTube logo downloaded from https://www.youtube.com/yt/about/brand-resources/#logos-icons-colors -->
+				<!-- YouTube logo resized -->
+				<div id = "yt-logo-div" class = "social-div"><a href = "https://www.youtube.com/user/BigSkinnyWallet1" target = "_blank"><img src = "images/youtube_social_square_red.png" id = "yt-logo" alt = "YouTube"/></a></div>
+			</div>
+			<!-- Pinterest logo -->
+			<div class = "col">
+				<!-- Pinterest logo downloaded from https://business.pinterest.com/en/pinterest-brand-guidelines -->
+				<!-- Pinterest logo resized -->
+				<div id = "pt-logo-div" class = "social-div"><a href = "https://www.pinterest.com/bigskinny/" target = "_blank"><img src = "images/badgeWHITE.png" id = "pt-logo" class = "social-logo" alt = "Pinterest"/></a></div>
+			</div>
+		</div>
+		<hr/>
+		<nav class = "navbar navbar-expand-md">
+			<ul class = "navbar-nav m-auto">
+				<li class = "nav-item-active">
+					<a class = "nav-link selected"> Products </a>
+				</li>
+				<li class = "nav-item-active">
+					<a class = "nav-link" href = "about.html"> About Us </a>
+				</li>
+				<li class = "nav-item-active">
+					<a class = "nav-link" href = "rewards.html"> mySkinnyRewards&copy; </a>
+				</li>
+			</ul>
+		</nav>
+		<!-- Big Skinny logo downloaded from https://www.bigskinny.net/ -->
+		<!-- Background color made transparent, main color switched to white -->
+		<div class = "navbar-nav m-auto">
+			<a class = "m-auto" href = "index.html"><img src = "images/home-6.jpg-light.png"/></a>
+		</div>
+		<br/>
+	</footer>
+</body>
+
+</html>

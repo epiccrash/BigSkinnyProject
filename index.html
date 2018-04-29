@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+	<title>BigSkinny - Home</title>
+	<!-- Link to custom Google font (doesn't work yet) -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<meta name = "author" content = "Michael Becker, Matthew Kern, Emmet Mack, Joey Perrino">
+	<meta name = "keywords" content = "Prantl's, bakery">
+	<meta name = "description" content = "Website for BigSkinny">
+	<!-- Responsive code from https://www.w3schools.com/html/html_responsive.asp -->
+	<meta name = "viewport" content = "width=device-width, initial-scale-1">
+
+	<!-- Import stylesheets -->
+	<link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<link rel = "stylesheet" media = "all" type = "text/css" href = "css/styles.css">
+
+	<!-- Import scripts -->
+    <script type= "text/javascript" src = "js/scripts.js"></script>
+	<script type = "text/javascript" src = "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type = "text/javascript" src = "https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<!-- Header -->
+	<div class = "fixed-top">
+		<div id = "header" class = "topnav">
+			<!-- Big Skinny logo -->
+			<a class = "navbar-brand"><img src = "images/home-6.jpg.png"/></a>
+			<!-- Individual page links -->
+			<div>
+				<a href= "products.html" class = "link nav-link">Products</a>
+				<a href = "about.html" class = "link nav-link">About Us</a>
+				<a href = "rewards.html" class = "link nav-link">mySkinnyRewards&copy;</a>
+				<!-- Calls javascript function to activate dropdown -->
+				<!-- From https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav -->
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+			</div>
+		</div>
+	</div>
+	<!-- Snippet from https://www.w3schools.com/bootstrap4/bootstrap_carousel.asp -->
+	<div id="demo" class="carousel slide" data-ride="carousel">
+
+		<!-- Indicators -->
+		<ul class="carousel-indicators">
+			<li data-target="#demo" data-slide-to="0" class="active"></li>
+			<li data-target="#demo" data-slide-to="1"></li>
+			<li data-target="#demo" data-slide-to="2"></li>
+		</ul>
+
+		<!-- The slideshow -->
+		<div class="carousel-inner">
+			<!-- Initial carousel item -->
+			<div class="carousel-item active">
+				<!-- Load image -->
+		  		<img class = "d-block w-100" src="images/bigskinnywallet.jpg" alt="Open Big Skinny Wallet">
+		  		<!-- Load carousel caption -->
+		  		<div class = "carousel-caption">
+		  			<h1>Simplicity</h1>
+		  			<p class = "caption">Easy to wear, easy to use, easy to love.</p>
+		  		</div>
+			</div>
+			<!-- Second carousel item -->
+			<div class="carousel-item">
+				<!-- Load image -->
+		  		<img class = "d-block w-100" src="images/stock-boy.jpg" alt="Three Big Skinny Wallets">
+		  		<!-- Load carousel caption -->
+		  		<div class = "carousel-caption">
+		  			<h1>Effectiveness</h1>
+		  			<p class = "caption">Stores all the stuff you need, without being clunky.</p>
+		  		</div>
+		  	</div>
+			<!-- Third carousel item -->
+			<div class="carousel-item">
+				<!-- Load image -->
+		  		<img class = "d-block w-100" src="images/wanderer-455338_1920.jpg" alt="Man Hiking">
+		  		<!-- Load carousel caption -->
+		  		<div class = "carousel-caption">
+		  			<h1>Durability</h1>
+		  			<p class = "caption">Through thick and thin, it stays thin.</p>
+		  		</div>
+			</div>
+		</div>
+
+		<!-- Left and right controls -->
+		<a class="carousel-control-prev" href="#demo" data-slide="prev">
+			<span class="carousel-control-prev-icon"></span>
+		</a>
+		<a class="carousel-control-next" href="#demo" data-slide="next">
+			<span class="carousel-control-next-icon"></span>
+		</a>
+
+	</div>
+
+	<!-- Main content -->
+	<main>
+		<br/>
+		<!-- Centered header -->
+		<h1>Not your average wallet.</h1>
+
+		<!-- Bee Movie script from https://gist.githubusercontent.com/ajn0592/6ae63abd1834485811200daefc319b40/raw/2411e31293a35f3e565f61e7490a806d4720ea7e/bee%2520movie%2520script -->
+		<div class = "container">
+			<p>According to all known laws of aviation, there is no way a bee should be able to fly. Its wings are too small to get its fat little body off the ground. The bee, of course, flies anyway because bees don't care what humans think is impossible. Yellow, black. Yellow, black. Yellow, black. Yellow, black. Ooh, black and yellow! Let's shake it up a little. Barry! Breakfast is ready! Coming! Hang on a second. Hello? Barry? Adam? Can you believe this is happening? I can't. I'll pick you up. Looking sharp. Use the stairs, Your father paid good money for those. Sorry. I'm excited.</p>
+		</div>
+		<!-- Create div with dark background -->
+		<div class = "bg-dark">
+			<!-- Holds an image -->
+			<div id = "image-holder" class = "container">
+				<br/>
+				<h1 class = "text-light">For the parent on the go.</h1>
+				<!-- Special div to hold image -->
+				<div id = "middle-index">
+					<!-- Image from https://sep.yimg.com/ay/yhst-94975210642937/leather-hybrid-l-shape-wallet-15.jpg#jmui=f%3A1707%3A305419896%3A0Ty2E-kwJv8Gh2wlZW%2Bv%2B4rz -->
+					<img class = "rounded inline-image" src = "images/leather-hybrid-l-shape-wallet-15.jpg"/>
+					<p class = "text-light">Hey, Adam. Hey, Barry. Is that fuzz gel? A little. Special day, graduation. Never thought I'd make it. Three days grade school, three days high school. Those were awkward. Three days college. I'm glad I took a day and hitchhiked around The Hive. You did come back different. Hi, Barry. Artie, growing a mustache? Looks good.</p>
+				</div>
+				<br/>
+			</div>
+		</div>
+
+		<div class = "container">
+			<br/>
+			<h1>Solving wallet problems for parents anywhere.</h1>
+			<!-- Contains video player -->
+			<div id = "video-div-holder">
+				<div id = "video-div">
+					<iframe width = "560" height = "315" src="https://www.youtube.com/embed/BIQXQxywtds" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+		<br/>
+	</main>
+	
+	<!-- Create footer -->
+	<footer class = "footer text-light">
+		<br/>
+		<!-- Row of social media icons -->
+		<div class = "row">
+			<!-- Facebook logo -->
+			<div class = "col">
+			<!-- Facebook logo downloaded from https://en.facebookbrand.com/assets/f-logo -->
+				<div id = "fb-logo-div" class = "social-div"><a href = "https://www.facebook.com/bigskinny/" target = "_blank"><img src = "images/FB-f-Logo__white_29.png" class = "social-logo" alt = "Facebook"/></a></div>
+			</div>
+			<!-- Twitter logo -->
+			<div class = "col">
+			<!-- Twitter logo downloaded from https://about.twitter.com/en_us/company/brand-resources.html -->
+			<!-- Twitter logo resized -->
+				<div id = "tw-logo-div" class = "social-div"><a href = "https://twitter.com/big_skinny?lang=en" target = "_blank"><img src = "images/Twitter_Logo_WhiteOnBlue.png" id = "tw-logo" class = "social-logo" alt = "Twitter"/></a></div>
+			</div>
+			<!-- YouTube logo -->
+			<div class = "col">
+				<!-- YouTube logo downloaded from https://www.youtube.com/yt/about/brand-resources/#logos-icons-colors -->
+				<!-- YouTube logo resized -->
+				<div id = "yt-logo-div" class = "social-div"><a href = "https://www.youtube.com/user/BigSkinnyWallet1" target = "_blank"><img src = "images/youtube_social_square_red.png" id = "yt-logo" alt = "YouTube"/></a></div>
+			</div>
+			<!-- Pinterest logo -->
+			<div class = "col">
+				<!-- Pinterest logo downloaded from https://business.pinterest.com/en/pinterest-brand-guidelines -->
+				<!-- Pinterest logo resized -->
+				<div id = "pt-logo-div" class = "social-div"><a href = "https://www.pinterest.com/bigskinny/" target = "_blank"><img src = "images/badgeWHITE.png" id = "pt-logo" class = "social-logo" alt = "Pinterest"/></a></div>
+			</div>
+		</div>
+		<hr/>
+		<!-- Navbar within footer -->
+		<nav class = "navbar navbar-expand-md">
+			<ul class = "navbar-nav m-auto">
+				<!-- Link to products.html -->
+				<li class = "nav-item-active">
+					<a class = "nav-link" href = "products.html"> Products </a>
+				</li>
+				<!-- Link to about.html -->
+				<li class = "nav-item-active">
+					<a class = "nav-link" href = "about.html"> About Us </a>
+				</li>
+				<!-- Link to rewards.html -->
+				<li class = "nav-item-active">
+					<a class = "nav-link" href = "rewards.html"> mySkinnyRewards&copy; </a>
+				</li>
+			</ul>
+		</nav>
+		<!-- Big Skinny logo downloaded from https://www.bigskinny.net/ -->
+		<!-- Background color made transparent, main color switched to white -->
+		<div class = "navbar-nav m-auto">
+			<a class = "m-auto"><img src = "images/home-6.jpg-light.png"/></a>
+		</div>
+		<br/>
+	</footer>
+</body>
+
+</html>
